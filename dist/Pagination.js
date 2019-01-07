@@ -109,7 +109,7 @@ var Pagination = function (_Component) {
 
       return _react2.default.createElement(
         'div',
-        null,
+        { style: this.props.style },
         this.props.children({
           pages: pages,
           previousPage: previousPage,

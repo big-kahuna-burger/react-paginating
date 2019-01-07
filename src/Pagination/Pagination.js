@@ -69,7 +69,7 @@ class Pagination extends Component {
     const pages = total ? getRange(firstPage, lastPage) : [];
 
     return (
-      <div>
+      <div style={this.props.style}>
         {this.props.children({
           pages,
           previousPage,
